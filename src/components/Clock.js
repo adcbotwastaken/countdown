@@ -10,8 +10,7 @@ const useStyles = makeStyles({
         textAlign: "center"
     },
     cardStyle: {
-        padding: "17px",
-        borderRadius: 12
+        borderRadius: 4
     }
 });
 
