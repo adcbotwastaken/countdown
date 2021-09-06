@@ -1,37 +1,35 @@
 import React, { useState, useEffect } from 'react';
-import { makeStyles } from '@material-ui/core/styles'
+//import { makeStyles } from '@material-ui/core/styles'
 import {
     Card,
-    CardContent,
     Typography,
     LinearProgress
 } from '@material-ui/core';
 
 
 
-const useStyles = makeStyles({
-    cardStyle: {
-        padding: "15px",
-        borderRadius: 32,
-        minHeight: '15vw',
-        maxHeight: '30vw',
-        overflow: 'auto',
+// const useStyles = makeStyles({
+//     cardStyle: {
+//         padding: "15px",
+//         borderRadius: 32,
+//         minHeight: '15vw',
+//         maxHeight: '30vw',
+//         overflow: 'auto',
 
-    }
-});
+//     }
+// });
 
 
 function CountdownCard(props) {
-    // const startDate = props.startDate;
-    // const endDate = props.endDate;
-
-    //console.log(props.date.endDate);
-    //console.log(props.date.startDate);
-
     // strings of the name, and start and end dates in (hopefully) correct formats
     const name = props.date.name;
     const startDateStr = props.date.startDate;
     const endDateStr = props.date.endDate;
+
+
+
+
+    
 
     // values are in milliseconds
     const startDate = Date.parse(startDateStr);
@@ -68,7 +66,8 @@ function CountdownCard(props) {
     }
 
     // const timeLeftStr = calculateProgress();
-    const cardText = `${name} is out on ${endDateObj.getFullYear()}.${endDateObj.getMonth()}.${endDateObj.getDate()}`;
+    const dateString = `${endDateObj.getFullYear()}.${endDateObj.getMonth()}.${endDateObj.getDate()}`
+    const cardText = `${name} end date: ${dateString}`;
 
     
 
