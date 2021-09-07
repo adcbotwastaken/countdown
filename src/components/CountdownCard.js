@@ -66,7 +66,12 @@ function CountdownCard(props) {
     }
 
     // const timeLeftStr = calculateProgress();
-    const dateString = `${endDateObj.getFullYear()}.${endDateObj.getMonth()}.${endDateObj.getDate()}`
+
+
+    // ty: https://stackoverflow.com/a/6040556 for doing double digit month/date
+    const monthFormatted = ("0" + endDateObj.getDate()).slice(-2);
+    const dateFormatted = ("0" + (endDateObj.getMonth() + 1)).slice(-2)
+    const dateString = `${endDateObj.getFullYear()}.${monthFormatted}.${dateFormatted}`
     const cardText = `${name} on ${dateString}`;
 
     
