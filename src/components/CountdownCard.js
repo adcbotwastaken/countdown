@@ -72,6 +72,7 @@ function CountdownCard(props) {
     const monthFormatted = ("0" + endDateObj.getDate()).slice(-2);
     const dateFormatted = ("0" + (endDateObj.getMonth() + 1)).slice(-2)
     const dateString = `${endDateObj.getFullYear()}.${monthFormatted}.${dateFormatted}`
+    
     const cardText = `${name} on ${dateString}`;
 
     
