@@ -67,7 +67,7 @@ function CountdownCard(props) {
 
     // const timeLeftStr = calculateProgress();
     const dateString = `${endDateObj.getFullYear()}.${endDateObj.getMonth()}.${endDateObj.getDate()}`
-    const cardText = `${name} end date: ${dateString}`;
+    const cardText = `${name} on ${dateString}`;
 
     
 
