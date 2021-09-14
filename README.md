@@ -1,5 +1,7 @@
 Website to countdown to dates
 
+adcbotwaastaken.github.io/countdown
+
 run `npm run deploy` to deploy the site.
 
 
