@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles'
 import {
     Card,
+    CardContent,
     Typography,
     LinearProgress
 } from '@material-ui/core';
@@ -10,10 +11,6 @@ import {
 
 const useStyles = makeStyles({
     cardStyle: {
-        paddingTop: '2%',
-        paddingLeft: '2%',
-        paddingRight: '2%',
-        paddingBottom: '2%',
         overflow: 'auto',
         borderRadius: 4
     },
@@ -94,9 +91,11 @@ function CountdownCard(props) {
 
     return(
         <Card className={classes.cardStyle}>
+            <CardContent>
             <Typography className={classes.typography}>{cardNameText} on {cardDateText}</Typography>
             <Typography className={classes.typography}>{timeLeft}</Typography>
             <LinearProgress variant="determinate" value={barProgress} />
+            </CardContent>
         </Card>
     );
 
