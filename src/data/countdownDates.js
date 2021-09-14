@@ -8,7 +8,7 @@ const countdownDates = [
     {
         "name": "LOONA: Hula Hoop",
         "startDate": '01 Sep 2021 00:00:00 EST',
-        "endDate": '2021-09-15T18:00:00.000+09:00'
+        "endDate": '2021-09-15T00:00:00.000+09:00'
     },
 
     {
