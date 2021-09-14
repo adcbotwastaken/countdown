@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-//import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from '@material-ui/core/styles'
 import {
     Card,
     Typography,
@@ -8,19 +8,23 @@ import {
 
 
 
-// const useStyles = makeStyles({
-//     cardStyle: {
-//         padding: "15px",
-//         borderRadius: 32,
-//         minHeight: '15vw',
-//         maxHeight: '30vw',
-//         overflow: 'auto',
-
-//     }
-// });
+const useStyles = makeStyles({
+    cardStyle: {
+        paddingTop: '2%',
+        paddingLeft: '2%',
+        paddingRight: '2%',
+        paddingBottom: '2%',
+        overflow: 'auto',
+        borderRadius: 4
+    },
+    typography: {
+        fontSize : 24
+    }
+});
 
 
 function CountdownCard(props) {
+    const classes = useStyles();
     // strings of the name, and start and end dates in (hopefully) correct formats
     const name = props.date.name;
     const startDateStr = props.date.startDate;
@@ -89,9 +93,9 @@ function CountdownCard(props) {
 
 
     return(
-        <Card>
-            <Typography>{cardNameText} on {cardDateText}</Typography>
-            <Typography>{timeLeft}</Typography>
+        <Card className={classes.cardStyle}>
+            <Typography className={classes.typography}>{cardNameText} on {cardDateText}</Typography>
+            <Typography className={classes.typography}>{timeLeft}</Typography>
             <LinearProgress variant="determinate" value={barProgress} />
         </Card>
     );

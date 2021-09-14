@@ -9,10 +9,12 @@ import Typography from '@material-ui/core/Typography'
 
 const useStyles = makeStyles({
     textStyle: {
-        textAlign: "center"
+        textAlign: "center",
+        fontSize: 48
     },
     cardStyle: {
-        borderRadius: 4
+        borderRadius: 4,
+        padding: '2%'
     }
 });
 

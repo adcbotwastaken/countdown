@@ -25,15 +25,15 @@ function App() {
     <Box className={classes.boxStyle}>
       <Grid
         container
-        spacing={2}
+        spacing={4}
         direction='column'
         justifyContent='flex-start'
         alignItems='stretch'
       >
-        <Grid item xs={12} spacing={3}>
+        <Grid item xs={12} spacing={4}>
           <Clock />
         </Grid>
-      <Grid container spacing={3}>
+      <Grid container spacing={4}>
         {countdownDates.map(dateObj => {
           return(
             <Grid item xs={12}>
