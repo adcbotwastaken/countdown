@@ -33,15 +33,17 @@ function App() {
         <Grid item xs={12} spacing={4}>
           <Clock />
         </Grid>
-      <Grid container spacing={4}>
-        {countdownDates.map(dateObj => {
-          return(
-            <Grid item xs={12}>
-              <CountdownCard date={dateObj}/>
-            </Grid>
-          );
-        })}
-      </Grid>
+        <Grid item xs={12} spacing={4}>
+          <Grid container spacing={4}>
+            {countdownDates.map(dateObj => {
+              return (
+                <Grid item xs={12} spacing={4}>
+                  <CountdownCard date={dateObj} />
+                </Grid>
+              );
+            })}
+          </Grid>
+        </Grid>
       </Grid>
 
     </Box>
