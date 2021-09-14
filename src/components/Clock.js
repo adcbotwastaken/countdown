@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import moment from 'moment';
 import Card from '@material-ui/core/Card'
 import Typography from '@material-ui/core/Typography'
+import CardContent from '@material-ui/core/CardContent'
 
 
 
@@ -14,7 +15,6 @@ const useStyles = makeStyles({
     },
     cardStyle: {
         borderRadius: 4,
-        padding: '2%'
     }
 });
 
@@ -41,7 +41,9 @@ function Clock() {
     return (
         <div>
             <Card className={classes.cardStyle}>
-                <Typography className={classes.textStyle} variant="h4">{dateString}</Typography>
+                <CardContent>
+                    <Typography className={classes.textStyle} variant="h4">{dateString}</Typography>
+                </CardContent>
             </Card>
         </div>
     );
