@@ -18,6 +18,12 @@ const countdownDates = [
     },
 
     {
+        "name": "ITZY: CRAZY IN LOVE",
+        "startDate": '12 Aug 2021 00:00:00 EST',
+        "endDate": '2021-09-24T13:00:00.000+09:00'
+    },
+
+    {
         "name": "End of Year",
         "startDate": "2021-01-01T00:00:00",
         "endDate": "2022-01-01T00:00:00",
