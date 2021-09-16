@@ -27,12 +27,7 @@ function CountdownCard(props) {
     const startDateStr = props.date.startDate;
     const endDateStr = props.date.endDate;
 
-
-
-
-    
-
-    // values are in milliseconds
+    // parsing the prop strings into dates/milliseconds
     const startDate = Date.parse(startDateStr);
     const endDate = Date.parse(endDateStr);
     const endDateObj = new Date(endDate);
@@ -42,20 +37,17 @@ function CountdownCard(props) {
     // barProgress should be a percentage as a number(50 = 50%, 24.5 = 24.5%)
     const [barProgress, setBarProgress] = useState(0);
     const [timeLeft, setTimeLeft] = useState(0);
-    //const [eventPassed, setEventPassed] = useState(false);
-    //console.log((Date.now() / endDate));
-
 
     // updates the countdown every half second.
     useEffect(() => {
         setInterval(() => {
             // check if the date has already passed and fill out the progress bar else update normally
-            if(calculateProgress() >= 100){
+            if(calculateProgress(startDate, totalTime) >= 100){
                 setBarProgress(100);
                 setTimeLeft("Countdown Finished!");
-                //setEventPassed(true);
+                //TODO: Update the colour of the bar to show countdown is complete
             }else{
-                setBarProgress(calculateProgress());
+                setBarProgress(calculateProgress(startDate, totalTime));
                 setTimeLeft(getTimeLeftStr(endDateObj));
             }
  
@@ -63,31 +55,14 @@ function CountdownCard(props) {
     });
 
 
-
-    // returns the progress of the countdown
-    function calculateProgress() {
-        return ((Date.now() - startDate) / totalTime) * 100;
-    }
-
-
-
-    // const timeLeftStr = calculateProgress();
-
-
-    // ty: https://stackoverflow.com/a/6040556 for doing double digit month/date
+    // ty: https://stackoverflow.com/a/6040556 for formatting double digit month/date
     const dateFormatted = ("0" + endDateObj.getDate()).slice(-2);
     const monthFormatted = ("0" + (endDateObj.getMonth() + 1)).slice(-2)
     const dateString = `${endDateObj.getFullYear()}.${monthFormatted}.${dateFormatted}`
 
-    
+    // building the strings for the card
     const cardNameText = `${name}`;
     const cardDateText = `${dateString}`;
-
-
-    //const cardTimeLeftText = ''
-
-    
-
 
     return(
         <Card className={classes.cardStyle}>
@@ -101,6 +76,15 @@ function CountdownCard(props) {
 
 
     
+}
+
+
+
+
+// returns the progress of the countdown
+function calculateProgress(startDate, totalTime) {
+    console.log("test");
+    return ((Date.now() - startDate) / totalTime) * 100;
 }
 
 
