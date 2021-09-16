@@ -37,6 +37,7 @@ function CountdownCard(props) {
     // barProgress should be a percentage as a number(50 = 50%, 24.5 = 24.5%)
     const [barProgress, setBarProgress] = useState(0);
     const [timeLeft, setTimeLeft] = useState(0);
+    const [barColour, setBarColour] = useState('primary');
 
     // updates the countdown every half second.
     useEffect(() => {
@@ -45,7 +46,7 @@ function CountdownCard(props) {
             if(calculateProgress(startDate, totalTime) >= 100){
                 setBarProgress(100);
                 setTimeLeft("Countdown Finished!");
-                //TODO: Update the colour of the bar to show countdown is complete
+                setBarColour('secondary');
             }else{
                 setBarProgress(calculateProgress(startDate, totalTime));
                 setTimeLeft(getTimeLeftStr(endDateObj));
@@ -69,7 +70,7 @@ function CountdownCard(props) {
             <CardContent>
             <Typography className={classes.typography}>{cardNameText} on {cardDateText}</Typography>
             <Typography className={classes.typography}>{timeLeft}</Typography>
-            <LinearProgress variant="determinate" value={barProgress} />
+            <LinearProgress variant="determinate" value={barProgress} color={barColour}/>
             </CardContent>
         </Card>
     );
