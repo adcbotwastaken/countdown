@@ -32,10 +32,18 @@ const countdownDates = [
     },
 
     {
+        "name": "TWICE: Formula of Love: O+T=<3",
+        "startDate": '08 Oct 2021 00:00:00 EST',
+        "endDate": '12 Nov 2021 00:00:00 EST'
+    },
+
+    {
         "name": "End of Year",
         "startDate": "2021-01-01T00:00:00",
         "endDate": "2022-01-01T00:00:00",
     }
+
+    
 
     
 ]
