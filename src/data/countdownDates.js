@@ -33,7 +33,7 @@ const countdownDates = [
     {
         "name": "JEON SOMI: XOXO",
         "startDate": '2021-10-20T10:02:04.000Z',
-        "endDate": '2021-10-29T00:18:00.000+09:00'
+        "endDate": '2021-10-29T18:00:00.000+09:00'
     },
     
 
