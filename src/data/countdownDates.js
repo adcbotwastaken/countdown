@@ -30,11 +30,11 @@ const countdownDates = [
     //     "endDate": '2021-10-19T00:00:00.000+09:00'
     // },
 
-    {
-        "name": "JEON SOMI: XOXO",
-        "startDate": '2021-10-20T10:02:04.000Z',
-        "endDate": '2021-10-29T18:00:00.000+09:00'
-    },
+    // {
+    //     "name": "JEON SOMI: XOXO",
+    //     "startDate": '2021-10-20T10:02:04.000Z',
+    //     "endDate": '2021-10-29T18:00:00.000+09:00'
+    // },
     
 
   
@@ -43,6 +43,12 @@ const countdownDates = [
         "name": "TWICE: Formula of Love: O+T=<3",
         "startDate": '08 Oct 2021 00:00:00 EST',
         "endDate": '12 Nov 2021 00:00:00 EST'
+    },
+
+    {
+        "name": "ITZY: It'z ITZY",
+        "startDate": '2021-10-31T15:00:16.000Z',
+        "endDate": '2021-12-22T00:00:00.000+09:00'
     },
 
     {
