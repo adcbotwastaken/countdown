@@ -50,6 +50,11 @@ const countdownDates = [
         "startDate": '2021-10-31T15:00:16.000Z',
         "endDate": '2021-12-22T00:00:00.000+09:00'
     },
+    {
+        "name": "Christmas Day",
+        "startDate": "2021-01-01T00:00:00",
+        "endDate": "2021-12-25T00:00:00",
+    },
 
     {
         "name": "End of Year",
