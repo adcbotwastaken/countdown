@@ -30,10 +30,12 @@ function Clock() {
 
     // effect is an effect that runs,
     useEffect(() => {
-        setInterval(() => {
+        const interval = setInterval(() => {
             // setinterval runs every 1 sec, and call the setDate and update it
             setDate(moment().format("YYYY.MM.DD | HH[:]mm[:]ss"));
         }, 1000);
+        // should help with performance? https://devtrium.com/posts/set-interval-react
+        return() => clearInterval(interval);
     }, []);
 
 

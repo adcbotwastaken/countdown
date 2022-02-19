@@ -41,7 +41,7 @@ function CountdownCard(props) {
 
     // updates the countdown every half second.
     useEffect(() => {
-        setInterval(() => {
+        const interval = setInterval(() => {
             // check if the date has already passed and fill out the progress bar else update normally
             if(calculateProgress(startDate, totalTime) >= 100){
                 setBarProgress(100);
@@ -51,9 +51,11 @@ function CountdownCard(props) {
                 setBarProgress(calculateProgress(startDate, totalTime));
                 setTimeLeft(getTimeLeftStr(endDateObj));
             }
- 
-        }, 500);
-    });
+
+            //should help with performance https://devtrium.com/posts/set-interval-react
+            return () => clearInterval(interval);
+        }, 1000);
+    },[]);
 
 
     // ty: https://stackoverflow.com/a/6040556 for formatting double digit month/date
@@ -84,7 +86,7 @@ function CountdownCard(props) {
 
 // returns the progress of the countdown
 function calculateProgress(startDate, totalTime) {
-    console.log("test");
+    //console.log("test");
     return ((Date.now() - startDate) / totalTime) * 100;
 }
 
