@@ -77,7 +77,7 @@ const countdownDates = [
     {
         "name": "Weeekly: Play Game: Awake",
         "startDate": "2022-02-14T15:00:10.000Z",
-        "endDate": "2022-03-19T18:00:00.000+09:00",
+        "endDate": "2022-03-07T18:00:00.000+09:00",
     }
 
 
