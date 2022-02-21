@@ -1,4 +1,23 @@
 const countdownDates = [
+
+    {
+        "name": "End of year",
+        "startDate": "2022-01-01T00:00:00",
+        "endDate": "2023-01-01T00:00:00",
+    },
+
+    {
+        "name": "Weeekly: Play Game: Awake",
+        "startDate": "2022-02-14T15:00:10.000Z",
+        "endDate": "2022-03-07T18:00:00.000+09:00",
+    }
+
+    // {
+    //     "name": "STAYC: YOUNG-LUV",
+    //     "startDate": "2022-02-06T15:00:04.000Z",
+    //     "endDate": "2022-02-21T18:00:00.000+09:00",
+    // },
+
     // {
     //     "name": "LOONA: Not Friends",
     //     "startDate": '01 Sep 2021 00:00:00 EST',
@@ -61,31 +80,6 @@ const countdownDates = [
     //     "startDate": "2021-01-01T00:00:00",
     //     "endDate": "2022-01-01T00:00:00",
     // }
-
-    {
-        "name": "End of year",
-        "startDate": "2022-01-01T00:00:00",
-        "endDate": "2023-01-01T00:00:00",
-    },
-
-    {
-        "name": "STAYC: YOUNG-LUV",
-        "startDate": "2022-02-06T15:00:04.000Z",
-        "endDate": "2022-02-21T18:00:00.000+09:00",
-    },
-
-    {
-        "name": "Weeekly: Play Game: Awake",
-        "startDate": "2022-02-14T15:00:10.000Z",
-        "endDate": "2022-03-07T18:00:00.000+09:00",
-    }
-
-
-
-
-
-
-
 ]
 
 export default countdownDates;
