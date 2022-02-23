@@ -2,9 +2,13 @@
   "name": "countdown",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://adcbotwastaken.github.io/countdown",
+  "homepage": "https://adcbotwastaken.github.io/countdown",
   "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
     "@material-ui/core": "^4.12.3",
+    "@mui/material": "^5.4.3",
+    "@mui/styles": "^5.4.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -16,7 +20,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
