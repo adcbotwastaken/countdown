@@ -24,7 +24,7 @@ const countdownDates = [
     },
 
     {
-        "name": "Brave Girls: COMEBACK",
+        "name": "Brave Girls: THANK YOU",
         "startDate": "2022-03-01T15:01:04.000Z",
         "endDate": "2022-03-14T18:00:00.000+09:00"
     },
