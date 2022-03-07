@@ -11,9 +11,9 @@ const countdownDates = [
 
 
     {
-        "name": "Weeekly: Play Game: Awake",
-        "startDate": "2022-02-14T15:00:10.000Z",
-        "endDate": "2022-03-07T18:00:00.000+09:00",
+        "name": "Purple Kiss: memeM",
+        "startDate": "2022-03-07T15:00:04.000Z",
+        "endDate": "2022-03-29T18:00:00.000+09:00"
     },
 
 
@@ -28,6 +28,13 @@ const countdownDates = [
         "startDate": "2022-03-01T15:01:04.000Z",
         "endDate": "2022-03-14T18:00:00.000+09:00"
     },
+
+
+    // {
+    //     "name": "Weeekly: Play Game: Awake",
+    //     "startDate": "2022-02-14T15:00:10.000Z",
+    //     "endDate": "2022-03-07T18:00:00.000+09:00",
+    // },
 
 
 
