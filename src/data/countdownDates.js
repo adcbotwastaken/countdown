@@ -29,6 +29,12 @@ const countdownDates = [
         "endDate": "2022-03-14T18:00:00.000+09:00"
     },
 
+    {
+        "name": "Red Velvet: Feel My Rhythm",
+        "startDate": "2022-03-01T15:01:27.000Z",
+        "endDate": "2022-03-21T18:00:00.000+09:00"
+    }
+
 
     // {
     //     "name": "Weeekly: Play Game: Awake",
