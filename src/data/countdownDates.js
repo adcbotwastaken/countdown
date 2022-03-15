@@ -23,11 +23,11 @@ const countdownDates = [
         "endDate": "2022-04-06T00:00:00.000+09:00"
     },
 
-    {
-        "name": "Brave Girls: THANK YOU",
-        "startDate": "2022-03-01T15:01:04.000Z",
-        "endDate": "2022-03-14T18:00:00.000+09:00"
-    },
+    // {
+    //     "name": "Brave Girls: THANK YOU",
+    //     "startDate": "2022-03-01T15:01:04.000Z",
+    //     "endDate": "2022-03-14T18:00:00.000+09:00"
+    // },
 
     {
         "name": "Red Velvet: Feel My Rhythm",
