@@ -17,23 +17,30 @@ const countdownDates = [
     },
 
 
+
     {
         "name": "ITZY: Voltage",
         "startDate": "2022-02-23T15:00:15.000Z",
         "endDate": "2022-04-06T00:00:00.000+09:00"
     },
 
+
+    {
+        "name": "Dreamcatcher: Apocalypse : Save us",
+        "startDate": "2022-03-23T15:00:03.000Z",
+        "endDate": "2022-04-12T18:00:00.000+09:00"
+    },
     // {
     //     "name": "Brave Girls: THANK YOU",
     //     "startDate": "2022-03-01T15:01:04.000Z",
     //     "endDate": "2022-03-14T18:00:00.000+09:00"
     // },
 
-    {
-        "name": "Red Velvet: Feel My Rhythm",
-        "startDate": "2022-03-01T15:01:27.000Z",
-        "endDate": "2022-03-21T18:00:00.000+09:00"
-    }
+    // {
+    //     "name": "Red Velvet: Feel My Rhythm",
+    //     "startDate": "2022-03-01T15:01:27.000Z",
+    //     "endDate": "2022-03-21T18:00:00.000+09:00"
+    // }
 
 
     // {
