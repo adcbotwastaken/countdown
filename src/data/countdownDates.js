@@ -10,12 +10,6 @@ const countdownDates = [
     },
 
 
-    {
-        "name": "Purple Kiss: memeM",
-        "startDate": "2022-03-07T15:00:04.000Z",
-        "endDate": "2022-03-29T18:00:00.000+09:00"
-    },
-
 
 
     {
@@ -30,6 +24,19 @@ const countdownDates = [
         "startDate": "2022-03-23T15:00:03.000Z",
         "endDate": "2022-04-12T18:00:00.000+09:00"
     },
+
+
+    {
+        "name": "Red Velvet: Bloom",
+        "startDate": "2021-12-10T18:00:03.000Z",
+        "endDate": "2022-04-06T18:00:00.000"
+    },
+
+    // {
+    //     "name": "Purple Kiss: memeM",
+    //     "startDate": "2022-03-07T15:00:04.000Z",
+    //     "endDate": "2022-03-29T18:00:00.000+09:00"
+    // },
     // {
     //     "name": "Brave Girls: THANK YOU",
     //     "startDate": "2022-03-01T15:01:04.000Z",
