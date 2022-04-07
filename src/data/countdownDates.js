@@ -12,11 +12,11 @@ const countdownDates = [
 
 
 
-    {
-        "name": "ITZY: Voltage",
-        "startDate": "2022-02-23T15:00:15.000Z",
-        "endDate": "2022-04-06T00:00:00.000+09:00"
-    },
+    // {
+    //     "name": "ITZY: Voltage",
+    //     "startDate": "2022-02-23T15:00:15.000Z",
+    //     "endDate": "2022-04-06T00:00:00.000+09:00"
+    // },
 
 
     {
@@ -26,11 +26,11 @@ const countdownDates = [
     },
 
 
-    {
-        "name": "Red Velvet: Bloom",
-        "startDate": "2021-12-10T18:00:03.000Z",
-        "endDate": "2022-04-06T18:00:00.000"
-    },
+    // {
+    //     "name": "Red Velvet: Bloom",
+    //     "startDate": "2021-12-10T18:00:03.000Z",
+    //     "endDate": "2022-04-06T18:00:00.000"
+    // },
 
     // {
     //     "name": "Purple Kiss: memeM",
