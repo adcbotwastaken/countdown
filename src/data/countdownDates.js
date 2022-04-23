@@ -10,6 +10,12 @@ const countdownDates = [
     },
 
 
+    // not sure on this one to be honest, timetable was a story, and this was the date pulled form insta.
+    {
+        "name": "LE SSERAFIM: FEARLESS",
+        "startDate": "2022-04-14T15:00:51.000Z",
+        "endDate": "2022-05-02T18:00:00.000+09:00"
+    },
 
 
     // {
@@ -19,11 +25,7 @@ const countdownDates = [
     // },
 
 
-    // {
-    //     "name": "Dreamcatcher: Apocalypse : Save us",
-    //     "startDate": "2022-03-23T15:00:03.000Z",
-    //     "endDate": "2022-04-12T18:00:00.000+09:00"
-    // },
+
 
 
     // {
