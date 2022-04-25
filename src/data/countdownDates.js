@@ -17,6 +17,12 @@ const countdownDates = [
         "endDate": "2022-05-02T18:00:00.000+09:00"
     },
 
+    {
+        "name": "TWICE JAPAN: Celebrate",
+        "startDate": "2022-04-25T09:00:00",
+        "endDate": "2022-07-27T00:00:00.000+09:00"
+    },
+
 
     // {
     //     "name": "ITZY: Voltage",
