@@ -12,7 +12,7 @@ import {
 const useStyles = makeStyles({
     cardStyle: {
         overflow: 'auto',
-        borderRadius: 4
+        borderRadius: 4,
     },
     typography: {
         fontSize : 24
