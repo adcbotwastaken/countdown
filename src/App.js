@@ -15,7 +15,7 @@ const useStyles = makeStyles({
   }
 })
 
-const oneDayInSec = 86400;
+const oneDayInSec = 86400 * 1000 * 3;
 
 function App() {
   //ISO Date with year should be YYYY-MM-DDTHH:MM:SSZ):
@@ -38,7 +38,7 @@ function App() {
           <Grid container spacing={4}>
             {countdownDates.map(dateObj => {
               
-              if(Date.parse(dateObj.endDate) > Date.now() + oneDayInSec){
+              if(Date.parse(dateObj.endDate) + oneDayInSec > Date.now()){
                 return (
                   <Grid item xs={12} spacing={4}>
                     <CountdownCard date={dateObj} />
