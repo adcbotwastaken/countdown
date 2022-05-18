@@ -9,6 +9,12 @@ const countdownDates = [
         "endDate": "2023-01-01T00:00:00",
     },
 
+    {
+        "name": "NAYEON (TWICE): I'M NAYEON",
+        "startDate": "2022-05-18T15:01:51.000Z",
+        "endDate": "2022-06-24T00:00:00.000Z"
+    },
+
 
     // not sure on this one to be honest, timetable was a story, and this was the date pulled form insta.
     {
