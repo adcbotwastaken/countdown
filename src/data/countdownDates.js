@@ -1,13 +1,21 @@
 const countdownDates = [
+    // UTC+9 is KST/JST
+    // UTC-5 is EST
 
-
-
-
-    {
+       {
         "name": "End of year",
         "startDate": "2022-01-01T00:00:00",
         "endDate": "2023-01-01T00:00:00",
     },
+
+     {
+        "name": "LOONA: POSE",
+        "startDate": "2022-05-26T23:20:00+09:00",
+        "endDate": "2022-05-27T12:00:00+09:00"
+    },
+
+
+
 
     {
         "name": "NAYEON (TWICE): I'M NAYEON",
