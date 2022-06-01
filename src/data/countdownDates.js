@@ -2,7 +2,7 @@ const countdownDates = [
     // UTC+9 is KST/JST
     // UTC-5 is EST
 
-       {
+    {
         "name": "End of year",
         "startDate": "2022-01-01T00:00:00",
         "endDate": "2023-01-01T00:00:00",
@@ -23,6 +23,11 @@ const countdownDates = [
         "endDate": "2022-06-24T00:00:00.000Z"
     },
 
+    {
+        "name": "ITZY: CHECKMATE",
+        "starDate": "2022-06-01T15:00:29.000Z",
+        "endDate": "2022-07-15T13:00:00+09:00"
+    },
 
     // not sure on this one to be honest, timetable was a story, and this was the date pulled form insta.
     {
