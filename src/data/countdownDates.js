@@ -21,6 +21,13 @@ const countdownDates = [
     },
 
 
+    {
+        "name": "KEP1ER: DOUBLAST",
+        "starDate" : "2022-06-03T03:00:10.000Z",
+        "endDate": "2022-06-20T18:00:00+09:00"
+    },
+
+
 
     {
         "name": "NAYEON (TWICE): I'M NAYEON",
