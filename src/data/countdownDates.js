@@ -14,6 +14,11 @@ const countdownDates = [
         "endDate": "2022-05-27T12:00:00+09:00"
     },
 
+    {
+        "name": "LOONA: FL!P that",
+        "starDate" : "2022-06-03T12:00:00+09:00",
+        "endDate": "2022-06-20T18:00:00+09:00"
+    },
 
 
 
