@@ -27,6 +27,12 @@ const countdownDates = [
         "endDate": "2022-06-20T18:00:00+09:00"
     },
 
+    {
+        "name": "fromis_9: from our Memento Box",
+        "startDate" : "2022-06-06T08:00:00-05:00",
+        "endDate" : "2022-06-27T18:00:00+09:00"
+    },
+
 
 
     {
