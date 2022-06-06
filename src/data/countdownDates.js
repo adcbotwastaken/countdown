@@ -16,14 +16,14 @@ const countdownDates = [
 
     {
         "name": "LOONA: FL!P that",
-        "starDate" : "2022-06-03T12:00:00+09:00",
+        "startDate" : "2022-06-03T12:00:00+09:00",
         "endDate": "2022-06-20T18:00:00+09:00"
     },
 
 
     {
         "name": "KEP1ER: DOUBLAST",
-        "starDate" : "2022-06-03T03:00:10.000Z",
+        "startDate" : "2022-06-03T03:00:10.000Z",
         "endDate": "2022-06-20T18:00:00+09:00"
     },
 
@@ -37,7 +37,7 @@ const countdownDates = [
 
     {
         "name": "ITZY: CHECKMATE",
-        "starDate": "2022-06-01T15:00:29.000Z",
+        "startDate": "2022-06-01T15:00:29.000Z",
         "endDate": "2022-07-15T13:00:00+09:00"
     },
 
