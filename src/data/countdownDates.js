@@ -15,20 +15,20 @@ const countdownDates = [
     },
 
     {
-        "name": "LOONA: FL!P that",
+        "name": "LOONA [Flip That]",
         "startDate" : "2022-06-03T12:00:00+09:00",
         "endDate": "2022-06-20T18:00:00+09:00"
     },
 
 
     {
-        "name": "KEP1ER: DOUBLAST",
+        "name": "KEP1ER [DOUBLAST]",
         "startDate" : "2022-06-03T03:00:10.000Z",
         "endDate": "2022-06-20T18:00:00+09:00"
     },
 
     {
-        "name": "fromis_9: from our Memento Box",
+        "name": "fromis_9 [from our Memento Box]",
         "startDate" : "2022-06-06T08:00:00-05:00",
         "endDate" : "2022-06-27T18:00:00+09:00"
     },
@@ -36,13 +36,13 @@ const countdownDates = [
 
 
     {
-        "name": "NAYEON (TWICE): I'M NAYEON",
+        "name": "NAYEON (TWICE) [I'M NAYEON]",
         "startDate": "2022-05-18T15:01:51.000Z",
         "endDate": "2022-06-24T00:00:00.000Z"
     },
 
     {
-        "name": "ITZY: CHECKMATE",
+        "name": "ITZY [CHECKMATE]",
         "startDate": "2022-06-01T15:00:29.000Z",
         "endDate": "2022-07-15T13:00:00+09:00"
     },
