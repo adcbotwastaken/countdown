@@ -8,7 +8,15 @@ const countdownDates = [
         "endDate": "2023-01-01T00:00:00",
     },
 
-     {
+    {
+        "name": "LOONA JAPAN:「LUMINOUS」",
+        "starDate": "2022-07-18T03:00:27.000Z",
+        "endDate": "2022-09-28T00:00:00.000+09:00"
+    },    
+    
+    
+    
+    {
         "name": "LOONA: POSE",
         "startDate": "2022-05-26T23:20:00+09:00",
         "endDate": "2022-05-27T12:00:00+09:00"
